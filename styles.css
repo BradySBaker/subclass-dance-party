@@ -27,12 +27,10 @@ body{
   }
 }
 
-body, a:link, a:visited, a:active{
-  color: lightblue;
-}
-.title, .addDancerButton{
+.title, a{
   padding:5px 12px;
   float:right;
+  color: black;
 }
 .topbar{
   height:0;
@@ -45,4 +43,12 @@ body, a:link, a:visited, a:active{
 #background {
   height: 100%;
   width: 100%;
+}
+
+a {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  background-color: rgb(79, 74, 0);
+  border:10px solid rgb(0, 0, 0);
+  border-radius:10px;
 }

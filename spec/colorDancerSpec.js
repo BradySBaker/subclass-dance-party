@@ -14,7 +14,7 @@ describe('colorDancer', function() {
 
   it('should have a step function that changes node color', function() {
     var originalColor = colorDancer.$node.css('border-color');
-    //colorDancer.step();
+    colorDancer.step();
     expect(originalColor !== colorDancer.$node.css('border-color')).to.be.true;
   });
 
